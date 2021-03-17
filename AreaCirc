@@ -1,0 +1,11 @@
+#Faça um Programa que peça o raio de um círculo, calcule e mostre sua área
+
+#Faça um Programa que peça o raio de um círculo, calcule e mostre sua área
+
+r=float(input('Insira o raio do cículo: '))
+
+#declaração de variáveis: pi e área, pois não da certo misturar variáveis de tipos (int e lfoat) diferentes
+pi=3.14
+
+area=pi*(r*r)
+print('O círculo em questão, com o raio ', r,', possui uma área de ', area)
