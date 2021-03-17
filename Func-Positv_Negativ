@@ -1,0 +1,8 @@
+#Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
+
+valor=float(input('insira um valor aleatório: '))
+
+if valor >= 0:
+  print('este valor é positivo!')
+else:
+  print('este valor é negativo!')
