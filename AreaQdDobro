@@ -1,0 +1,8 @@
+#Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
+
+l=float(input('insira o valor do lado do quadrado, em centímetros: '))
+
+area=l*l
+dobro=area*2
+
+print('Este quadrado possui uma área de',area,'centímetros. O dobro desta área é de', dobro, 'centimetros.')
