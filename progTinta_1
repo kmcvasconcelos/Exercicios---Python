@@ -1,0 +1,17 @@
+#Faça um programa para uma loja de tintas.
+#O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00. Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total.
+
+area_p=float(input('informe o tamanho, em metros quadrados, da área que será pintada: '))
+
+#área total que utiliza uma lata
+area_lata=3*18
+
+if area_p > area_lata :
+  falta=(area_p/area_lata)
+  print("vai ser preciso", falta, "latas de tinta para pintar esta área.")
+elif area_p <= area_lata :
+  print("vai ser preciso 1 lata de tinta para pintar esta área.")
+
+quant_latas=int(input('quantas latas de tinta você irá levar?: '))
+valor_f=quant_latas*80
+print("o valor total da compra será de R$", valor_f)
