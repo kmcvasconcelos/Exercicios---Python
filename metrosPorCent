@@ -1,0 +1,5 @@
+#Faça um Programa que converta metros para centímetros
+
+m=float(input('Insira, em metros, o tamanho medido: '))
+cm=m*100
+print(m,' metros, em centímetros, são ', cm,' centímetros.')
